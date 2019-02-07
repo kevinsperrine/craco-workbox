@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "lint": "node_modules/.bin/eslint --fix lib/*"
+    "prettier": "node_modules/.bin/prettier --write --single-quote lib/*",
+    "lint": "node_modules/.bin/eslint -c .eslintrc.json --fix lib/*"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
@@ -20,8 +21,8 @@
   },
   "lint-staged": {
     "lib/**/*.js": [
-      "node_modules/.bin/prettier --write --single-quote lib/*",
-      "node_modules/.bin/eslint --fix lib/*",
+      "yarn prettier",
+      "yarn lint",
       "git add"
     ]
   },
