@@ -1,6 +1,6 @@
 {
   "name": "craco-workbox",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A simple craco plugin to override the workbox config in CRA2",
   "main": "lib/index.js",
   "repository": "https://github.com/kevinsperrine/craco-workbox",
