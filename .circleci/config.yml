@@ -105,4 +105,4 @@ workflows:
             branches:
               ignore: /.*/
           requires:
-            - build
+            - lint
