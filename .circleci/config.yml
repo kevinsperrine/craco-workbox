@@ -9,6 +9,7 @@ whitelist: &whitelist
     - node_modules/*
     - lib/*
     - LICENSE
+    - .eslintrc.json
     - package.json
     - README.md
     - yarn.lock
