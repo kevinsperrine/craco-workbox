@@ -18,7 +18,7 @@ npm install craco-workbox -S
 
 1. Add the plugin into your craco.config.js;
 
-```
+```javascript
 // craco.config.js
 
 const CracoWorkboxPlugin = require('craco-workbox');
@@ -32,7 +32,7 @@ module.exports = {
 
 2. Add a workbox.config.js file to your project root containing the overrides you would like to pass. For a full list of options see [https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin#generatesw_plugin](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin#generatesw_plugin).
 
-```
+```javascript
 // workbox.config.js
 
 module.exports = {
